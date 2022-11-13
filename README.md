@@ -60,4 +60,8 @@ Age : 25 years
 # 🏧 For Donation :
 <p>Donation not allowed but will be appreciated No links For Now  </p>
 
-[<img alt="PayPal" height="32" width="32" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/paypal.svg" />](https://fb.com/sabry.dawood.79) [<img alt="Ko-Fi" height="32" width="32" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/ko-fi.svg" />](https://fb.com/sabry.dawood.79) [<img alt="Patreon" height="32" width="32" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/patreon.svg" />](https://fb.com/sabry.dawood.79)
+[<img alt="PayPal" height="32" width="32" src="https://img.shields.io/badge/Paypal-007ACC?style=flat-square&logo=paypal&logoColor=white" />](https://fb.com/sabry.dawood.79)
+
+[<img alt="Ko-Fi" height="32" width="32" src="https://img.shields.io/badge/Kofi-007ACC?style=flat-square&logo=kofi&logoColor=white" />](https://fb.com/sabry.dawood.79) 
+
+[<img alt="Patreon" height="32" width="32" src="https://img.shields.io/badge/Patreon-007ACC?style=flat-square&logo=patreon&logoColor=white" />](https://fb.com/sabry.dawood.79)
