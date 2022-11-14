@@ -21,34 +21,49 @@ Age : 25 years
   Github Stats<br>
   
 <img src="https://github-readme-stats.vercel.app/api?username=virgel1995&show_icons=true&hide_title=false&theme=chartreuse-dark" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=virgel1995&layout=compact&theme=tokyonight"/>
+<img src="https://komarev.com/ghpvc/?username=virgel1995" alt="views on github" />
 </p>
 
 # 🌍languages And Tools:
 
 
 <p>
-  <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img alt="css" src="https://img.shields.io/badge/-CSS-00A6FF?style=flat-square&logo=css3&logoColor=white" />
-  <img alt="js" src="https://img.shields.io/badge/-Javascript-FFEE00?style=flat-square&logo=javascript&logoColor=black" />
-  <img alt="nodejs" src="https://img.shields.io/badge/-NodeJS-43853D?style=flat-square&logo=Node.js&logoColor=white" />
+  <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=social&logo=html5&logoColor=orange" />
+  <img alt="css" src="https://img.shields.io/badge/-CSS-00A6FF?style=social&logo=css3&logoColor=blue" />
+  <img alt="js" src="https://img.shields.io/badge/-Javascript-FFEE00?style=social&logo=javascript&logoColor=FFEE00" />
+  <img alt="nodejs" src="https://img.shields.io/badge/-NodeJS-43853D?style=social&logo=Node.js&logoColor=green" />
+  <img alt="php" src="https://img.shields.io/badge/-Php-blue?style=social&logo=Php&logoColor=blue" />
 </p>
 <p>
-<img src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white "/>
-<img src="https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku&logoColor=white "/> 
-<img src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white "/>
-<img src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white "/> 
+<img src="https://img.shields.io/badge/-TypeScript-007ACC?style=social&logo=typescript&logoColor=blue "/>
+ <img alt="Laravel" src="https://img.shields.io/badge/-Laravel-red?style=social&logo=Laravel&logoColor=red" />
+ <img alt="liveware" src="https://img.shields.io/badge/-Livewire-red?style=social&logo=livewire&logoColor=orange" />
+<img src="https://img.shields.io/badge/-Heroku-430098?style=social&logo=heroku&logoColor=430098"/> 
+<img src="https://img.shields.io/badge/-NPM-CB3837?style=social&logo=npm&logoColor=white "/>
+<img src="https://img.shields.io/badge/-MongoDB-13aa52?style=social&logo=mongodb&logoColor=green"/> 
+<img src="https://img.shields.io/badge/-MySql-13aa52?style=social&logo=mysql&logoColor=blue"/> 
+<img src="https://img.shields.io/badge/-Sql-13aa52?style=social&logo=Oracle&logoColor=blue"/> 
 </p>
 <p>
-  <img alt="github" width="25px" src="https://raw.githubusercontent.com/coderjojo/coderjojo/master/img/github.svg"/>
-    <img alt="git" width="25px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/97px-Git_icon.svg.png"/ >
-    <img alt="bootstrap" width="25px" src="https://img.icons8.com/color/452/bootstrap.png"/>
+<img alt="linux" src="https://img.shields.io/badge/Linux-3d3d3d?style=social&logo=linux&logoColor=black"/>
+    <img alt="visual" src="https://img.shields.io/badge/Visual_Studio_Code-3d3d3d?style=social&logo=visual%20studio%20code&logoColor=0078D4"/>
+    <img alt="Git" src="https://img.shields.io/badge/Git-3d3d3d?style=social&logo=Git&logoColor=orange"/>
+    <img alt="Figma" src="https://img.shields.io/badge/Figma-3d3d3d?style=social&logo=Figma&logoColor=e04a34"/>
+<img alt="TailwindCSS" src="https://img.shields.io/badge/Tailwind_Css-3d3d3d?style=social&logo=tailwind%20css&logoColor=0078D4"/>
+
+<img alt="bootstrab" src="https://img.shields.io/badge/bootstrap-3d3d3d?style=social&logo=bootstrap&logoColor=purple"/>
+    <img alt="visual" src="https://img.shields.io/badge/Github-3d3d3d?style=social&logo=github&logoColor=0078D4"/>
 </p>
   
 
 
 
 # You Can Find Me Here:
-[<img alt="Github" height="32" width="32" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/github.svg" />](https://github.com/virgel1995) [<img alt="Discord" title="Discord" height="32" width="32" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/discord.svg" />](https://discord.com/users/799984138111287337) [<img alt="Twitter" height="32" width="32" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/twitter.svg" />](https://discord.com/users/799984138111287337) [<img alt="Facebook" height="32" width="32" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/facebook.svg" />](https://fb.com/sabry.dawood.79)
+[<img alt="Github" src="https://img.shields.io/badge/github-blue?style=social&logo=github&logoColor=black" />](https://github.com/virgel1995)
+[<img alt="Discord" src="https://img.shields.io/badge/discord-blue?style=social&logo=discord&logoColor=blue" />](https://discord.com/users/799984138111287337)
+[<img alt="Twitter" src="https://img.shields.io/badge/Twitter-blue?style=social&logo=twitter&logoColor=blue" />](https://discord.com/users/799984138111287337)
+[<img alt="Facebook" src="https://img.shields.io/badge/Facebook-blue?style=social&logo=Facebook&logoColor=blue" />](https://fb.com/sabry.dawood.79)
 
 ------------
 
@@ -60,8 +75,8 @@ Age : 25 years
 # 🏧 For Donation :
 <p>Donation not allowed but will be appreciated No links For Now  </p>
 
-[<img alt="PayPal" height="32" width="32" src="https://img.shields.io/badge/Paypal-007ACC?style=flat-square&logo=paypal&logoColor=white" />](https://fb.com/sabry.dawood.79)
+[<img alt="PayPal" src="https://img.shields.io/badge/Paypal-white?style=social&logo=paypal&logoColor=blue" />](https://fb.com/sabry.dawood.79)
 
-[<img alt="Ko-Fi" height="32" width="32" src="https://img.shields.io/badge/Kofi-007ACC?style=flat-square&logo=kofi&logoColor=white" />](https://fb.com/sabry.dawood.79) 
+[<img alt="Ko-Fi" src="https://img.shields.io/badge/Kofi-white?style=social&logo=kofi&logoColor=orange" />](https://fb.com/sabry.dawood.79) 
 
-[<img alt="Patreon" height="32" width="32" src="https://img.shields.io/badge/Patreon-007ACC?style=flat-square&logo=patreon&logoColor=white" />](https://fb.com/sabry.dawood.79)
+[<img alt="Patreon" src="https://img.shields.io/badge/Patreon-white?style=social&logo=patreon&logoColor=orange" />](https://fb.com/sabry.dawood.79)
