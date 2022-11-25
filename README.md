@@ -23,7 +23,9 @@ Age : 25 years
 <img src="https://github-readme-stats.vercel.app/api?username=virgel1995&show_icons=true&hide_title=false&theme=chartreuse-dark" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=virgel1995&layout=compact&theme=tokyonight"/>
 <img src="https://komarev.com/ghpvc/?username=virgel1995" alt="views on github" />
+<img src="https://github-profile-trophy.vercel.app/?username=virgel1995&theme=darkhub&no-frame=true" />
 </p>
+
 
 # 🌍languages And Tools:
 
