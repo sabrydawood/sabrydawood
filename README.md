@@ -10,7 +10,7 @@
 My Name : Sabry Dawood
 </li>
 <li> 
-My Country : Egypt (living at it now)
+My Country : Egypt
 </li>
 <li> 
 Age : 28 years
