@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&width=435&lines=Hey!+This+is+virus+24+😁😁)](https://github.com/virgel1995)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&width=435&lines=Hey!+This+is+Sabry+DAwood+😁😁)](https://github.com/virgel1995)
 
 # <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/> **Welcome Mate **
 </br>
