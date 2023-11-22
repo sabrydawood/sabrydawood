@@ -36,6 +36,7 @@ Age : 28 years
   <img alt="js" src="https://img.shields.io/badge/-Javascript-FFEE00?style=social&logo=javascript&logoColor=FFEE00" />
   <img alt="nodejs" src="https://img.shields.io/badge/-NodeJS-43853D?style=social&logo=Node.js&logoColor=green" />
   <img alt="php" src="https://img.shields.io/badge/-Php-blue?style=social&logo=Php&logoColor=blue" />
+  <img alt="react" src="https://img.shields.io/badge/-REACT-blue?style=social&logo=react&logoColor=blue" />
 </p>
 <p>
 <img src="https://img.shields.io/badge/-TypeScript-007ACC?style=social&logo=typescript&logoColor=blue "/>
@@ -43,9 +44,10 @@ Age : 28 years
  <img alt="liveware" src="https://img.shields.io/badge/-Livewire-red?style=social&logo=livewire&logoColor=orange" />
 <img src="https://img.shields.io/badge/-Heroku-430098?style=social&logo=heroku&logoColor=430098"/> 
 <img src="https://img.shields.io/badge/-NPM-CB3837?style=social&logo=npm&logoColor=white "/>
+<img src="https://img.shields.io/badge/-YARN-CB3837?style=social&logo=yarn&logoColor=white "/>
 <img src="https://img.shields.io/badge/-MongoDB-13aa52?style=social&logo=mongodb&logoColor=green"/> 
 <img src="https://img.shields.io/badge/-MySql-13aa52?style=social&logo=mysql&logoColor=blue"/> 
-<img src="https://img.shields.io/badge/-Sql-13aa52?style=social&logo=Oracle&logoColor=blue"/> 
+<img src="https://img.shields.io/badge/-Sql-13aa52?style=social&logo=Sql&logoColor=blue"/> 
 </p>
 <p>
 <img alt="linux" src="https://img.shields.io/badge/Linux-3d3d3d?style=social&logo=linux&logoColor=black"/>
@@ -64,21 +66,6 @@ Age : 28 years
 # You Can Find Me Here:
 [<img alt="Github" src="https://img.shields.io/badge/github-blue?style=social&logo=github&logoColor=black" />](https://github.com/virgel1995)
 [<img alt="Discord" src="https://img.shields.io/badge/discord-blue?style=social&logo=discord&logoColor=blue" />](https://discord.com/users/799984138111287337)
-[<img alt="Twitter" src="https://img.shields.io/badge/Twitter-blue?style=social&logo=twitter&logoColor=blue" />](https://discord.com/users/799984138111287337)
 [<img alt="Facebook" src="https://img.shields.io/badge/Facebook-blue?style=social&logo=Facebook&logoColor=blue" />](https://fb.com/sabry.dawood.79)
 
 ------------
-
-
-
-
-
-
-# 🏧 For Donation :
-<p>Donation not allowed but will be appreciated No links For Now  </p>
-
-[<img alt="PayPal" src="https://img.shields.io/badge/Paypal-white?style=social&logo=paypal&logoColor=blue" />](https://fb.com/sabry.dawood.79)
-
-[<img alt="Ko-Fi" src="https://img.shields.io/badge/Kofi-white?style=social&logo=kofi&logoColor=orange" />](https://fb.com/sabry.dawood.79) 
-
-[<img alt="Patreon" src="https://img.shields.io/badge/Patreon-white?style=social&logo=patreon&logoColor=orange" />](https://fb.com/sabry.dawood.79)
