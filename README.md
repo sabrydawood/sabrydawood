@@ -22,8 +22,10 @@ Age : 30 years
   
 <img src="https://github-readme-stats.vercel.app/api?username=sabrydawood&show_icons=true&hide_title=false&theme=chartreuse-dark" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sabrydawood&layout=compact&theme=tokyonight"/>
+
 <img src="https://komarev.com/ghpvc/?username=sabrydawood" alt="views on github" />
-<img src="https://github-profile-trophy.vercel.app/?username=sabrydawood&theme=darkhub&no-frame=true" />
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=sabrydawood&short_numbers=true&date_format=j%2Fn%5B%2FY%5D)](https://git.io/streak-stats)
 </p>
 
 
