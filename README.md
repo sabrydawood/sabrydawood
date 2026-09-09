@@ -6,8 +6,10 @@
 # `MISSION CONTROL // SABRY DAWOOD`
 
 > **Lead Software Engineer · Future Solutions Dev**
+
 > Backend · AI · Systems · Infrastructure
 
+> <img src="https://komarev.com/ghpvc/?username=sabrydawood" alt="views on github" />
 ---
 
 ## `◉ SYSTEM STATUS`
