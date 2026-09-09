@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub Profile — Mission Control</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#05070a;padding:40px 16px;font-family:-apple-system,BlinkMacSystemFont,"Inter","Segoe UI",sans-serif;display:flex;justify-content:center}
+.wrap{width:100%;max-width:1100px}
+.panel{position:relative;border-radius:14px;overflow:hidden;box-shadow:0 20px 70px rgba(0,0,0,.55);background:radial-gradient(ellipse at 50% -15%,#1c2246 0%,#05070f 62%);padding:26px 28px 30px;color:#dbe6f5}
+.panel:before{content:"";position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(1px 1px at 8% 22%,#fff 100%,transparent),radial-gradient(1px 1px at 22% 68%,#fff 100%,transparent),radial-gradient(1px 1px at 38% 12%,#fff 100%,transparent),radial-gradient(1px 1px at 52% 85%,#fff 100%,transparent),radial-gradient(1px 1px at 66% 34%,#fff 100%,transparent),radial-gradient(1px 1px at 78% 58%,#fff 100%,transparent),radial-gradient(1px 1px at 88% 20%,#fff 100%,transparent),radial-gradient(1px 1px at 94% 76%,#fff 100%,transparent),radial-gradient(1px 1px at 15% 92%,#fff 100%,transparent),radial-gradient(1px 1px at 46% 48%,#fff 100%,transparent),radial-gradient(1px 1px at 60% 6%,#fff 100%,transparent),radial-gradient(1px 1px at 30% 40%,#fff 100%,transparent);opacity:.7}
+.panel:after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(255,255,255,.02) 0 1px,transparent 1px 3px)}
+.inner{position:relative;z-index:1}
+.app-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;flex-wrap:wrap;gap:6px}
+.app-title{font-family:ui-monospace,"JetBrains Mono",monospace;font-size:12.5px;letter-spacing:.08em;color:#dbe6f5}
+.app-title b{color:#4cc9f0}.app-sub{font-family:ui-monospace,monospace;font-size:10.5px;color:#5c6478}
+.dashboard{display:grid;grid-template-columns:200px 1fr;gap:22px}
+.side-card{border:1px solid rgba(76,201,240,.3);background:rgba(76,201,240,.04);padding:16px;margin-bottom:12px;text-align:center}
+.orbit-wrap{position:relative;width:92px;height:92px;margin:0 auto 12px}
+.satellite-orbit{position:absolute;inset:0;animation:orbitSpin 9s linear infinite}
+.satellite{position:absolute;top:2px;left:50%;width:5px;height:5px;margin-left:-2.5px;border-radius:50%;background:#4cc9f0;box-shadow:0 0 9px #4cc9f0}
+@keyframes orbitSpin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+.orbit-core{position:absolute;width:40px;height:40px;top:50%;left:50%;margin:-20px 0 0 -20px;border-radius:50%;border:1px solid rgba(76,201,240,.5);background:rgba(76,201,240,.08);display:flex;align-items:center;justify-content:center;font-family:ui-monospace,monospace;font-size:12px;color:#4cc9f0}
+.side-name{font-size:14px;color:#fff;margin:0 0 4px}.side-role{font-family:ui-monospace,monospace;font-size:10px;color:#9d4edd;line-height:1.5}
+.side-hud{border:1px solid rgba(76,201,240,.2);background:rgba(76,201,240,.03);margin-bottom:12px}
+.side-hud-row{display:flex;justify-content:space-between;gap:6px;padding:8px 11px;border-bottom:1px solid rgba(76,201,240,.12);font-family:ui-monospace,monospace;font-size:10px}
+.side-hud-row:last-child{border-bottom:none}.side-hud-row .k{color:#6f8fb0}.side-hud-row .v{color:#dbe6f5;text-align:right}
+.side-hud-row .v.status{display:flex;align-items:center;gap:5px;color:#4cc9f0}.hud-dot{width:5px;height:5px;border-radius:50%;background:#3fb950;box-shadow:0 0 6px #3fb950;flex-shrink:0}
+.comm-title{font-size:9.5px;color:#6f8fb0;letter-spacing:.08em;margin:0 0 8px;font-family:ui-monospace,monospace;text-align:left}
+.comm-btn-block{display:flex;align-items:center;gap:7px;border:1px solid #4cc9f0;color:#4cc9f0;padding:7px 10px;font-family:ui-monospace,monospace;font-size:10.5px;margin-bottom:6px;text-decoration:none}
+.comm-btn-block:hover{background:rgba(76,201,240,.12)}
+.signal{display:inline-flex;align-items:flex-end;gap:2px}.signal span{width:3px;background:currentColor;display:block}.signal span:nth-child(1){height:5px}.signal span:nth-child(2){height:8px}.signal span:nth-child(3){height:11px}
+.tab-bar{display:flex;gap:6px;margin-bottom:20px;flex-wrap:wrap;border-bottom:1px solid rgba(76,201,240,.2);padding-bottom:12px}
+.tab-btn{padding:8px 14px;border:1px solid rgba(76,201,240,.3);background:rgba(76,201,240,.04);color:#8b96b8;font-family:ui-monospace,monospace;font-size:11px;cursor:pointer}
+.tab-btn .idx{color:#4cc9f0;margin-right:6px}.tab-btn.active{background:rgba(76,201,240,.16);color:#e8f2fb;border-color:#4cc9f0}
+.tab-panel{display:none}.tab-panel.active{display:block}
+.section-note{font-size:10.5px;color:#5c6478;margin:-6px 0 14px;font-family:ui-monospace,monospace}
+.sys-cat-label{font-size:10px;color:#6f8fb0;letter-spacing:.06em;margin:0 0 8px;font-family:ui-monospace,monospace}
+.sys-row{display:flex;justify-content:space-between;align-items:center;padding:9px 12px;border:1px solid rgba(76,201,240,.15);margin-bottom:6px;background:rgba(76,201,240,.03);font-size:12px;font-family:ui-monospace,monospace}
+.sys-row .name b{color:#4cc9f0;font-weight:normal}.sys-row .name{color:#dbe6f5}.sys-row .status{font-size:9.5px;letter-spacing:.05em;color:#4cc9f0}.sys-row.archived{opacity:.55}.sys-row.archived .status{color:#6b7590}.sys-block{margin-bottom:16px}
+.modules{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.mod-card{position:relative;border:1px solid rgba(157,78,221,.5);padding:16px;background:rgba(157,78,221,.06)}
+.mod-card.lab{border-color:rgba(255,180,84,.5);background:rgba(255,180,84,.05)}
+.mod-code{font-family:ui-monospace,monospace;font-size:10px;letter-spacing:.06em;margin-bottom:6px;color:#9d4edd}.mod-card.lab .mod-code{color:#ffb454}
+.mod-name{font-family:ui-monospace,monospace;font-size:13.5px;color:#fff;margin:0 0 8px}.mod-desc{font-size:12px;color:#b7bfd6;line-height:1.6;margin-bottom:10px}
+.mod-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}.mod-tag{font-size:10px;padding:2px 8px;border-radius:10px;background:rgba(255,255,255,.06);color:#9aa6c0}
+.mod-status{display:inline-flex;align-items:center;gap:6px;font-size:10px;color:#4cc9f0;font-family:ui-monospace,monospace}.mod-status .dot{width:5px;height:5px;border-radius:50%;background:#4cc9f0}
+.mod-status.dev{color:#ffb454}.mod-status.dev .dot{background:#ffb454}
+.doctrine-list{list-style:none;padding:0;margin:0;border:1px solid rgba(76,201,240,.15);background:rgba(76,201,240,.03)}
+.doctrine-item{display:flex;gap:10px;padding:12px 14px;border-bottom:1px solid rgba(76,201,240,.12);font-size:12.5px;color:#c7d2e8}.doctrine-item:last-child{border-bottom:none}.doctrine-item .marker{color:#4cc9f0;font-family:ui-monospace,monospace;flex-shrink:0}
+.tm-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.tm-item{border:1px solid rgba(76,201,240,.3);padding:14px;text-align:center;background:rgba(76,201,240,.04)}.tm-value{font-family:ui-monospace,monospace;font-size:18px;color:#fff}.tm-label{font-size:9px;color:#8b96b8;margin-top:4px;letter-spacing:.04em;font-family:ui-monospace,monospace}
+.activity-grid{display:grid;grid-template-columns:repeat(30,1fr);gap:3px;margin-bottom:10px}.activity-cell{aspect-ratio:1;border-radius:2px;background:rgba(76,201,240,.07)}.activity-legend{display:flex;align-items:center;gap:5px;font-size:10px;color:#6f8fb0;font-family:ui-monospace,monospace}.legend-dot{width:9px;height:9px;border-radius:2px}
+.repo-link{color:inherit;text-decoration:none}.repo-link:hover .mod-name{text-decoration:underline}
+@media(max-width:720px){.dashboard{grid-template-columns:1fr}.modules{grid-template-columns:1fr}.tm-grid{grid-template-columns:1fr 1fr}.activity-grid{grid-template-columns:repeat(18,1fr)}}
+</style>
+</head>
+<body>
+<div class="wrap"><div class="panel"><div class="inner">
+
+<div class="app-header">
+<span class="app-title"><b>MISSION CONTROL</b> // SABRY DAWOOD</span>
+<span class="app-sub">github.com/sabrydawood + FutureSolutionDev</span>
+</div>
+
+<div class="dashboard">
+<aside>
+<div class="side-card">
+<div class="orbit-wrap">
+<svg viewBox="0 0 92 92" width="92" height="92">
+<circle cx="46" cy="46" r="41" stroke="rgba(76,201,240,.4)" stroke-width="1" fill="none" stroke-dasharray="3 6"/>
+<circle cx="46" cy="46" r="28" stroke="rgba(157,78,221,.3)" stroke-width="1" fill="none"/>
+</svg>
+<div class="satellite-orbit"><div class="satellite"></div></div><div class="orbit-core">SD</div>
+</div>
+<p class="side-name">Sabry Dawood</p>
+<p class="side-role">Lead Software Engineer<br>Future Solutions Dev</p>
+</div>
+
+<div class="side-hud">
+<div class="side-hud-row"><span class="k">SECTOR</span><span class="v">Future Solutions Dev</span></div>
+<div class="side-hud-row"><span class="k">REGION</span><span class="v">Egypt / Delta</span></div>
+<div class="side-hud-row"><span class="k">FOCUS</span><span class="v">Backend / AI / Systems</span></div>
+<div class="side-hud-row"><span class="k">STATUS</span><span class="v status"><span class="hud-dot"></span>Online</span></div>
+</div>
+
+<div class="side-card" style="text-align:left">
+<p class="comm-title">TRANSMIT</p>
+<a class="comm-btn-block" href="https://github.com/sabrydawood" target="_blank"><span class="signal"><span></span><span></span><span></span></span>GitHub</a>
+<a class="comm-btn-block" href="https://github.com/FutureSolutionDev" target="_blank"><span class="signal"><span></span><span></span><span></span></span>FutureSolutionDev</a>
+<a class="comm-btn-block" href="https://www.linkedin.com/in/sabrydawood" target="_blank" style="margin-bottom:0"><span class="signal"><span></span><span></span><span></span></span>LinkedIn</a>
+</div>
+</aside>
+
+<main>
+<div class="tab-bar">
+<button class="tab-btn active" data-tab="systems"><span class="idx">01</span>Systems</button>
+<button class="tab-btn" data-tab="modules"><span class="idx">02</span>Modules</button>
+<button class="tab-btn" data-tab="lab"><span class="idx">03</span>R&amp;D</button>
+<button class="tab-btn" data-tab="doctrine"><span class="idx">04</span>Doctrine</button>
+<button class="tab-btn" data-tab="telemetry"><span class="idx">05</span>Telemetry</button>
+<button class="tab-btn" data-tab="activity"><span class="idx">06</span>Activity</button>
+</div>
+
+<div class="tab-panel active" data-tab="systems">
+<div class="sys-block">
+<p class="sys-cat-label">PRIMARY STACK</p>
+<div class="sys-row"><span class="name"><b>Runtime</b> — Bun / Node.js</span><span class="status">OPERATIONAL</span></div>
+<div class="sys-row"><span class="name"><b>Backend</b> — TypeScript / Hono / Express</span><span class="status">OPERATIONAL</span></div>
+<div class="sys-row"><span class="name"><b>ORM / Data</b> — Drizzle / Sequelize / SQL</span><span class="status">OPERATIONAL</span></div>
+<div class="sys-row"><span class="name"><b>Database</b> — PostgreSQL / MySQL / MariaDB / Redis</span><span class="status">OPERATIONAL</span></div>
+<div class="sys-row"><span class="name"><b>AI</b> — RAG / Multi-Model / Claude Code workflows</span><span class="status">ACTIVE</span></div>
+<div class="sys-row"><span class="name"><b>Systems</b> — CI/CD / Monitoring / Cloud VPS</span><span class="status">ACTIVE</span></div>
+</div>
+<div class="sys-block">
+<p class="sys-cat-label">PUBLIC ENGINEERING SIGNALS</p>
+<div class="sys-row"><span class="name"><b>Deploy Center</b> — self-hosted CI/CD platform</span><span class="status">PUBLIC</span></div>
+<div class="sys-row"><span class="name"><b>Internet Monitor</b> — Go connectivity observability</span><span class="status">PUBLIC</span></div>
+<div class="sys-row"><span class="name"><b>Audio Intelligence</b> — provider-agnostic AI audio pipeline</span><span class="status">PUBLIC</span></div>
+<div class="sys-row"><span class="name"><b>Claude Config</b> — multi-role engineering agent system</span><span class="status">PUBLIC</span></div>
+</div>
+</div>
+
+<div class="tab-panel" data-tab="modules">
+<div class="modules">
+<div class="mod-card">
+<p class="mod-code">MOD-01</p>
+<a class="repo-link" href="https://github.com/FutureSolutionDev/Deploy-Center-Server" target="_blank"><p class="mod-name">Deploy-Center-Server</p></a>
+<p class="mod-desc">Self-hosted CI/CD deployment platform with persistent BullMQ + Redis queues, encrypted environment variables, notifications, rollback UI, project templates and workspaces.</p>
+<div class="mod-tags"><span class="mod-tag">TypeScript</span><span class="mod-tag">Express</span><span class="mod-tag">Redis</span><span class="mod-tag">CI/CD</span></div>
+<span class="mod-status"><span class="dot"></span>PUBLIC / 28★</span>
+</div>
+
+<div class="mod-card">
+<p class="mod-code">MOD-02</p>
+<a class="repo-link" href="https://github.com/FutureSolutionDev/future-audio-intelligence" target="_blank"><p class="mod-name">future-audio-intelligence</p></a>
+<p class="mod-desc">Audio transcription and summarization package built around swappable provider adapters and pluggable storage backends.</p>
+<div class="mod-tags"><span class="mod-tag">npm</span><span class="mod-tag">AI</span><span class="mod-tag">adapters</span></div>
+<span class="mod-status"><span class="dot"></span>PUBLIC / ACTIVE</span>
+</div>
+
+<div class="mod-card">
+<p class="mod-code">MOD-03</p>
+<a class="repo-link" href="https://github.com/FutureSolutionDev/internet-monitor" target="_blank"><p class="mod-name">internet-monitor</p></a>
+<p class="mod-desc">Local-first connectivity monitor with TCP, HTTP and DNS checks, outage evidence, speed tests, dashboards, alerts and PDF/CSV reporting.</p>
+<div class="mod-tags"><span class="mod-tag">Go</span><span class="mod-tag">monitoring</span><span class="mod-tag">desktop</span></div>
+<span class="mod-status"><span class="dot"></span>PUBLIC / 123 COMMITS</span>
+</div>
+
+<div class="mod-card">
+<p class="mod-code">MOD-04</p>
+<a class="repo-link" href="https://github.com/FutureSolutionDev/Multi-Model-Rag-Orchestrator" target="_blank"><p class="mod-name">Multi-Model-Rag-Orchestrator</p></a>
+<p class="mod-desc">Public R&amp;D repository focused on orchestrating retrieval and multiple model providers inside an AI workflow.</p>
+<div class="mod-tags"><span class="mod-tag">RAG</span><span class="mod-tag">LLM</span><span class="mod-tag">orchestration</span></div>
+<span class="mod-status"><span class="dot"></span>PUBLIC / R&amp;D</span>
+</div>
+
+<div class="mod-card">
+<p class="mod-code">MOD-05</p>
+<a class="repo-link" href="https://github.com/FutureSolutionDev/Ollama-Getway" target="_blank"><p class="mod-name">Ollama-Getway</p></a>
+<p class="mod-desc">Small public gateway experiment around Ollama and local-model access, reflecting the broader local AI infrastructure track.</p>
+<div class="mod-tags"><span class="mod-tag">Ollama</span><span class="mod-tag">local AI</span></div>
+<span class="mod-status"><span class="dot"></span>PUBLIC / R&amp;D</span>
+</div>
+
+<div class="mod-card">
+<p class="mod-code">MOD-06</p>
+<a class="repo-link" href="https://github.com/sabrydawood/claude-config" target="_blank"><p class="mod-name">claude-config</p></a>
+<p class="mod-desc">Portable multi-role Claude Code system with CTO, PM, Engineering, UI/UX, Growth, BA, DevOps and BD perspectives, plus ADR and discovery-first workflows.</p>
+<div class="mod-tags"><span class="mod-tag">Claude Code</span><span class="mod-tag">agents</span><span class="mod-tag">ADR</span></div>
+<span class="mod-status"><span class="dot"></span>PUBLIC / PERSONAL</span>
+</div>
+</div>
+</div>
+
+<div class="tab-panel" data-tab="lab">
+<p class="section-note">selected public experiments and engineering infrastructure</p>
+<div class="modules">
+<div class="mod-card lab">
+<p class="mod-code">LAB-01</p>
+<p class="mod-name">Multi-Model RAG</p>
+<p class="mod-desc">Exploring retrieval orchestration, provider selection and model-independent AI pipelines.</p>
+<div class="mod-tags"><span class="mod-tag">RAG</span><span class="mod-tag">LLM routing</span></div>
+<span class="mod-status dev"><span class="dot"></span>EXPERIMENTAL</span>
+</div>
+<div class="mod-card lab">
+<p class="mod-code">LAB-02</p>
+<p class="mod-name">Local AI Gateway</p>
+<p class="mod-desc">Experiments around serving local models through a consistent application-facing gateway.</p>
+<div class="mod-tags"><span class="mod-tag">Ollama</span><span class="mod-tag">local models</span></div>
+<span class="mod-status dev"><span class="dot"></span>EXPERIMENTAL</span>
+</div>
+<div class="mod-card lab">
+<p class="mod-code">LAB-03</p>
+<p class="mod-name">AI Engineering Workflow</p>
+<p class="mod-desc">Claude Code configuration built as a reusable engineering operating system rather than a single prompt.</p>
+<div class="mod-tags"><span class="mod-tag">agents</span><span class="mod-tag">knowledge base</span></div>
+<span class="mod-status dev"><span class="dot"></span>ITERATING</span>
+</div>
+</div>
+</div>
+
+<div class="tab-panel" data-tab="doctrine">
+<ul class="doctrine-list">
+<li class="doctrine-item"><span class="marker">›</span>Architecture before implementation — understand existing systems before adding new logic.</li>
+<li class="doctrine-item"><span class="marker">›</span>Prefer explicit abstraction boundaries: repositories, services, adapters and reusable infrastructure.</li>
+<li class="doctrine-item"><span class="marker">›</span>Performance is a design concern — SQL, queues, caching and network behavior are treated as first-class constraints.</li>
+<li class="doctrine-item"><span class="marker">›</span>Provider independence — adapters and ports make AI, storage and infrastructure components replaceable.</li>
+<li class="doctrine-item"><span class="marker">›</span>Native TypeScript for core application logic, with Go used where systems-level tooling is the better fit.</li>
+<li class="doctrine-item"><span class="marker">›</span>AI workflows should be structured, auditable and context-aware — not one giant prompt.</li>
+</ul>
+</div>
+
+<div class="tab-panel" data-tab="telemetry">
+<p class="section-note">public portfolio telemetry — values based on the repositories selected for this profile</p>
+<div class="tm-grid">
+<div class="tm-item"><div class="tm-value">18+</div><div class="tm-label">PUBLIC ORG REPOS</div></div>
+<div class="tm-item"><div class="tm-value">123+</div><div class="tm-label">MONITOR COMMITS</div></div>
+<div class="tm-item"><div class="tm-value">28★</div><div class="tm-label">DEPLOY CENTER</div></div>
+<div class="tm-item"><div class="tm-value">2</div><div class="tm-label">GITHUB SIGNALS</div></div>
+</div>
+</div>
+
+<div class="tab-panel" data-tab="activity">
+<div class="activity-grid" id="activity"></div>
+<div class="activity-legend">
+Less
+<span class="legend-dot" style="background:rgba(76,201,240,.07)"></span>
+<span class="legend-dot" style="background:rgba(157,78,221,.25)"></span>
+<span class="legend-dot" style="background:rgba(76,201,240,.4)"></span>
+<span class="legend-dot" style="background:#4cc9f0"></span>
+More
+</div>
+</div>
+
+</main>
+</div>
+</div></div></div>
+
+<script>
+const tabBtns=document.querySelectorAll('.tab-btn'),panels=document.querySelectorAll('.tab-panel');
+tabBtns.forEach(btn=>btn.addEventListener('click',()=>{
+ tabBtns.forEach(b=>b.classList.remove('active'));btn.classList.add('active');
+ panels.forEach(p=>p.classList.toggle('active',p.dataset.tab===btn.dataset.tab));
+}));
+const grid=document.getElementById('activity');
+const levels=[.07,.07,.07,.07,.25,.4,1];
+for(let i=0;i<210;i++){
+ const c=document.createElement('div');c.className='activity-cell';
+ const r=Math.random();
+ c.style.background=r>.9?'#4cc9f0':r>.72?'rgba(76,201,240,.4)':r>.52?'rgba(157,78,221,.25)':'rgba(76,201,240,.07)';
+ grid.appendChild(c);
+}
+</script>
+</body>
+</html>
