@@ -12,6 +12,13 @@
 > <img src="https://komarev.com/ghpvc/?username=sabrydawood" alt="views on github" />
 ---
 
+##  ORBITAL ACTIVITY
+ 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sabrydawood/sabrydawood/output/github-contribution-grid-snake.svg" alt="Contribution snake" />
+</p>
+
+---
 ## `◉ SYSTEM STATUS`
 
 | System                                              | Status         |
