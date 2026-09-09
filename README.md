@@ -3,85 +3,314 @@
 </p>
 
 <br>
+# `MISSION CONTROL // SABRY DAWOOD`
 
-## `01` SYSTEMS ONLINE
+> **Lead Software Engineer · Future Solutions Dev**
+> Backend · AI · Systems · Infrastructure
 
-**Active**
+---
 
-![Bun](https://img.shields.io/badge/Bun-4cc9f0?style=flat-square&logoColor=white)
-![Hono](https://img.shields.io/badge/Hono-4cc9f0?style=flat-square&logoColor=white)
-![Drizzle ORM](https://img.shields.io/badge/Drizzle%20ORM-4cc9f0?style=flat-square&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4cc9f0?style=flat-square&logo=postgresql&logoColor=white)
+## `◉ SYSTEM STATUS`
 
-**Archived**
+| System                                              | Status         |
+| --------------------------------------------------- | -------------- |
+| **Runtime** — Bun / Node.js                         | 🟢 OPERATIONAL |
+| **Backend** — TypeScript / Hono / Express           | 🟢 OPERATIONAL |
+| **ORM / Data** — Drizzle / Sequelize / SQL          | 🟢 OPERATIONAL |
+| **Database** — PostgreSQL / MySQL / MariaDB / Redis | 🟢 OPERATIONAL |
+| **AI** — RAG / Multi-Model / AI Engineering         | 🔵 ACTIVE      |
+| **Infrastructure** — CI/CD / Monitoring / Cloud VPS | 🔵 ACTIVE      |
 
-![Node.js](https://img.shields.io/badge/Node.js-6b7590?style=flat-square&logo=nodedotjs&logoColor=white)
-![Sequelize](https://img.shields.io/badge/Sequelize-6b7590?style=flat-square&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-6b7590?style=flat-square&logo=mysql&logoColor=white)
-![React](https://img.shields.io/badge/React-6b7590?style=flat-square&logo=react&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-6b7590?style=flat-square&logo=nextdotjs&logoColor=white)
+**SECTOR:** Future Solutions Dev
+**REGION:** Egypt / Delta
+**FOCUS:** Backend / AI / Systems
+**STATUS:** 🟢 ONLINE
 
-<br>
+---
 
-## `02` MISSION MODULES
+## `◈ TRANSMIT`
 
-**MOD-01 · est8core**
-Multi-tenant real estate SaaS platform (subdomain architecture). Dynamic SQL builder for contract queries, chunked file uploads, bilingual AR/EN design system.
-`multi-tenant` `saas`
+[![GitHub](https://img.shields.io/badge/GitHub-sabrydawood-181717?style=for-the-badge\&logo=github)](https://github.com/sabrydawood)
 
-**MOD-02 · future-audio-intelligence**
-npm package for audio transcription and summarization. Swappable provider adapters (Deepgram, Whisper, OpenRouter, Gemini) with JSON/SQLite/S3 storage backends.
-`npm` `adapter pattern` — [repo](https://github.com/FutureSolutionDev/future-audio-intelligence)
+[![FutureSolutionDev](https://img.shields.io/badge/FutureSolutionDev-GitHub-181717?style=for-the-badge\&logo=github)](https://github.com/FutureSolutionDev)
 
-**MOD-03 · deploy-center**
-Custom CI/CD orchestration tool for internal deployment pipelines.
-`ci/cd` `internal` — [repo](https://github.com/FutureSolutionDev/Deploy-Center-Server)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sabry%20Dawood-0A66C2?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/sabrydawood)
 
-<br>
+---
 
-## `03` R&D
+<details open>
+<summary><strong>01 // SYSTEMS</strong></summary>
 
-*Experimental — not production modules.*
+### PRIMARY STACK
 
-**LAB-01 · nano-gpt-ts** — `IN DEVELOPMENT`
-GPT built from scratch in pure TypeScript — custom autograd engine, causal self-attention, Adam optimizer. Formal four-stage training pipeline spec.
+```text
+Runtime       → Bun / Node.js
+Backend       → TypeScript / Hono / Express
+ORM / Data    → Drizzle / Sequelize / SQL
+Database      → PostgreSQL / MySQL / MariaDB / Redis
+AI            → RAG / Multi-Model / AI Workflows
+Systems       → CI/CD / Monitoring / Cloud VPS
+```
 
-**LAB-02 · agent-builder** — `DESIGN PHASE`
-White-label multi-tenant AI agent platform concept — WhatsApp-first channel, multi-LLM provider support, per-client guardrails.
+### ENGINEERING SIGNALS
 
-<br>
+| System                 | Description                         | State    |
+| ---------------------- | ----------------------------------- | -------- |
+| **Deploy Center**      | Self-hosted CI/CD platform          | `PUBLIC` |
+| **Internet Monitor**   | Go connectivity observability       | `PUBLIC` |
+| **Audio Intelligence** | Provider-agnostic AI audio pipeline | `PUBLIC` |
+| **Claude Config**      | Multi-role engineering agent system | `PUBLIC` |
 
-## `04` OPERATING DOCTRINE
+</details>
 
-> Structured abstraction layers — repositories, helpers, base classes
-> Heavy SQL performance optimization
-> Native TypeScript stack — no Python in core logic
-> Design tokens over hardcoded values — no inline hex
-> Adapter / Ports & Adapters pattern for swappable providers
+---
 
-<br>
+<details open>
+<summary><strong>02 // MODULES</strong></summary>
 
-## `05` TELEMETRY
+### `MOD-01` — Deploy-Center-Server
+
+**Self-hosted CI/CD deployment platform**
+
+Persistent BullMQ + Redis queues, encrypted environment variables, notifications, rollback UI, project templates and workspaces.
+
+`TypeScript` · `Express` · `Redis` · `CI/CD`
+
+**STATUS:** 🟢 PUBLIC
+
+→ [Repository](https://github.com/FutureSolutionDev/Deploy-Center-Server)
+
+---
+
+### `MOD-02` — future-audio-intelligence
+
+**Provider-independent AI audio pipeline**
+
+Audio transcription and summarization package built around swappable provider adapters and pluggable storage backends.
+
+`npm` · `AI` · `Adapters`
+
+**STATUS:** 🟢 PUBLIC / ACTIVE
+
+→ [Repository](https://github.com/FutureSolutionDev/future-audio-intelligence)
+
+---
+
+### `MOD-03` — internet-monitor
+
+**Local-first connectivity observability**
+
+TCP, HTTP and DNS checks, outage evidence, speed tests, dashboards, alerts and PDF/CSV reporting.
+
+`Go` · `Monitoring` · `Desktop`
+
+**STATUS:** 🟢 PUBLIC
+
+→ [Repository](https://github.com/FutureSolutionDev/internet-monitor)
+
+---
+
+### `MOD-04` — Multi-Model-Rag-Orchestrator
+
+**Retrieval + multi-model orchestration**
+
+R&D around retrieval orchestration, multiple model providers and model-independent AI workflows.
+
+`RAG` · `LLM` · `Orchestration`
+
+**STATUS:** 🔵 PUBLIC / R&D
+
+→ [Repository](https://github.com/FutureSolutionDev/Multi-Model-Rag-Orchestrator)
+
+---
+
+### `MOD-05` — Ollama-Getway
+
+**Local AI gateway experiments**
+
+Experiments around Ollama and local-model access through a consistent application-facing gateway.
+
+`Ollama` · `Local AI`
+
+**STATUS:** 🔵 PUBLIC / R&D
+
+→ [Repository](https://github.com/FutureSolutionDev/Ollama-Getway)
+
+---
+
+### `MOD-06` — claude-config
+
+**AI Engineering Operating System**
+
+Portable multi-role Claude Code system with CTO, PM, Engineering, UI/UX, Growth, BA, DevOps and BD perspectives.
+
+`Claude Code` · `Agents` · `ADR` · `Knowledge Base`
+
+**STATUS:** 🟣 PUBLIC / PERSONAL
+
+→ [Repository](https://github.com/sabrydawood/claude-config)
+
+</details>
+
+---
+
+<details open>
+<summary><strong>03 // R&D LAB</strong></summary>
+
+> Selected public experiments and engineering infrastructure.
+
+### `LAB-01` — Multi-Model RAG
+
+Exploring retrieval orchestration, provider selection and model-independent AI pipelines.
+
+`RAG` · `LLM Routing`
+
+**STATE:** 🟠 EXPERIMENTAL
+
+---
+
+### `LAB-02` — Local AI Gateway
+
+Experiments around serving local models through a consistent application-facing gateway.
+
+`Ollama` · `Local Models`
+
+**STATE:** 🟠 EXPERIMENTAL
+
+---
+
+### `LAB-03` — AI Engineering Workflow
+
+Claude Code configuration designed as a reusable engineering operating system rather than a single prompt.
+
+`Agents` · `Knowledge Base` · `Workflows`
+
+**STATE:** 🟠 ITERATING
+
+</details>
+
+---
+
+<details open>
+<summary><strong>04 // DOCTRINE</strong></summary>
+
+### Engineering Principles
+
+```text
+› Architecture before implementation
+```
+
+Understand existing systems before adding new logic.
+
+```text
+› Explicit abstraction boundaries
+```
+
+Prefer repositories, services, adapters and reusable infrastructure.
+
+```text
+› Performance is a design concern
+```
+
+SQL, queues, caching and network behavior are treated as first-class constraints.
+
+```text
+› Provider independence
+```
+
+Adapters and ports make AI, storage and infrastructure components replaceable.
+
+```text
+› Right tool for the right layer
+```
+
+TypeScript for core application logic. Go where systems-level tooling is the better fit.
+
+```text
+› Structured AI workflows
+```
+
+AI workflows should be structured, auditable and context-aware — not one giant prompt.
+
+</details>
+
+---
+
+<details open>
+<summary><strong>05 // TELEMETRY</strong></summary>
+
+### PUBLIC PORTFOLIO SIGNALS
+
+| Metric                               |  Value |
+| ------------------------------------ | -----: |
+| **Public Organization Repositories** |  `18+` |
+| **Internet Monitor Commits**         | `123+` |
+| **Deploy Center Stars**              |  `28★` |
+| **GitHub Signals**                   |   `2+` |
+
+### ACTIVITY
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sabrydawood\&show_icons=true\&hide_border=true\&theme=transparent)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sabrydawood\&layout=compact\&hide_border=true\&theme=transparent)
+
+</details>
+
+---
+
+<details open>
+<summary><strong>06 // ACTIVITY</strong></summary>
+
+### CURRENT SIGNAL
+
+```text
+SYSTEM ACTIVITY
+────────────────────────────────────────────
+
+████████████████████████████████████████████
+██████████████████████████████░░████████████
+████████████████████░░░░████████████████████
+████████████░░████████████████████░░████████
+████████████████████████████░░██████████████
+████████░░██████████████████████████████████
+████████████████████░░░░░░██████████████████
+████████████████████████████████░░██████████
+
+LESS                                      MORE
+```
+
+> Public activity signal generated from GitHub contribution activity.
+
+</details>
+
+---
+
+## `// CORE PROFILE`
+
+```text
+┌─────────────────────────────────────────────┐
+│                                             │
+│   SABRY DAWOOD                              │
+│   Lead Software Engineer                    │
+│                                             │
+│   Backend / AI / Systems / Infrastructure   │
+│                                             │
+│   Future Solutions Dev                      │
+│                                             │
+│   STATUS: ONLINE                            │
+│                                             │
+└─────────────────────────────────────────────┘
+```
+
+### `CURRENT FOCUS`
+
+**Building software systems that combine backend engineering, AI infrastructure, automation and developer tooling.**
+
+---
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sabrydawood&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sabrydawood&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" alt="Top languages" />
+
+`MISSION CONTROL // END OF TRANSMISSION`
+
 </p>
 
-<br>
-
-## `06` ORBITAL ACTIVITY
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sabrydawood/sabrydawood/output/github-contribution-grid-snake.svg" alt="Contribution snake" />
-</p>
-
-<br>
-
-## TRANSMIT
-
-<p align="center">
-  <a href="https://github.com/sabrydawood"><img src="https://img.shields.io/badge/GitHub-4cc9f0?style=flat-square&logo=github&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/sabrydawood"><img src="https://img.shields.io/badge/LinkedIn-4cc9f0?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:kazouya25@gmail.com"><img src="https://img.shields.io/badge/Email-4cc9f0?style=flat-square&logo=gmail&logoColor=white" /></a>
-</p>
