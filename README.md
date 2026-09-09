@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Sabry Dawood" />
+  <img src="./assets/banner.svg?v=1" width="100%" alt="Sabry Dawood" />
 </p>
 
 <br>
